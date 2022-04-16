@@ -4,10 +4,10 @@
   "description": "guitar shop",
   "main": "index.js",
   "scripts": {
-    "start":"node server/server.js",
-    "server":"nodemon server/server.js",
-    "client":"npm start --prefix client",
-    "dev":"concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -36,6 +36,7 @@
     "mongoose-aggregate-paginate-v2": "^1.0.6",
     "passport": "^0.5.2",
     "passport-jwt": "^4.0.0",
+    "validator": "^13.7.0",
     "xss-clean": "^0.1.1"
   }
 }
